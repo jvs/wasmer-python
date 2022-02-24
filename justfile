@@ -1,7 +1,7 @@
 # Install the environment to develop the extension.
 prelude:
 	#!/usr/bin/env bash
-	set -x
+	set -ex
 
 	pip3 install virtualenv
 	virtualenv .env
